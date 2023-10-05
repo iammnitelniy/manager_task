@@ -9,6 +9,7 @@ const initialState = {
 export type AppInitialStateType = typeof initialState;
 export type RequestStatusType = "idle" | "loading" | "succeeded" | "failed";
 
+
 const slice = createSlice({
   name: "app",
   initialState,
