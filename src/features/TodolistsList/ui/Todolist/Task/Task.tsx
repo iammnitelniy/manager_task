@@ -7,7 +7,8 @@ import {TaskStatuses} from "common/enums";
 import {useActions} from "../../../../../common/hooks";
 import {tasksThunks} from "../../../model/tasks.reducer";
 
-type TaskPropsType = {
+type TaskPropsType =
+    {
     task: TaskType;
     todolistId: string;
     changeTaskStatus: (id: string, status: TaskStatuses, todolistId: string) => void;
