@@ -1,4 +1,4 @@
-﻿This is my PET project with actual technologies.
+﻿
 React
 TypeScript
 HTML5
